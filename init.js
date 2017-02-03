@@ -3,15 +3,15 @@
   button.addEventListener('click', onButtonClick);
 
   function onButtonClick (e) {
-  e.preventDefault();
-  button.removeEventListener('click', onButtonClick);
-  button.classList.add('hidden');
+    e.preventDefault();
+    button.removeEventListener('click', onButtonClick);
+    button.classList.add('hidden');
 
-  var cont = document.querySelector('#playerCont');
-  cont.innerHTML = playerTemplate();
-  cont.classList.remove('hidden');
+    var cont = document.querySelector('#playerCont');
+    cont.innerHTML = playerTemplate();
+    cont.classList.remove('hidden');
 
-  window.tvigle.createPlayers(null, 'brandNewPlayer');
+    window.tvigle.createPlayers(null, 'brandNewPlayer');
   }
 
   function playerTemplate () {
@@ -26,5 +26,5 @@
         //'<param name="eventHandler" value="TviglePlayerProxy.eventHandler">'
       '</object>'
     ].join('');
-  }  
+  }
 })();
