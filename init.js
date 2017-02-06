@@ -16,7 +16,7 @@
 
   function playerTemplate () {
     return [
-      '<object id="brandNewPlayer" class="TviglePlayer" itemprop="video" type="application/x-shockwave-flash" width="756" height="420">',
+      '<object id="brandNewPlayer" class="TviglePlayer" itemprop="video" width="756" height="420">',
         '<param name="width" value="756" />',
         '<param name="partnerId" value="2181" />',
         '<param name="id" value="5220799" />',
