@@ -19,7 +19,7 @@
       '<object id="brandNewPlayer" class="TviglePlayer" itemprop="video" width="756" height="420">',
         '<param name="width" value="756" />',
         '<param name="partnerId" value="2181" />',
-        '<param name="id" value="875223" />',
+        '<param name="id" value="5220799" />',
         '<param name="height" value="420" />',
         '<param name="useAPI" value="true">',
         '<param name="templateLoadHandler" value="TvigleProxy.onLoaded">',
